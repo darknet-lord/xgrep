@@ -1,0 +1,9 @@
+[package]
+name = "xgrep"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4.3.23", features = ["derive"] }
+regex = "1.9.3"
+walkdir = "2.3.3"
